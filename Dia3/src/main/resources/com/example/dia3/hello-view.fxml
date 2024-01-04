@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.dia3.HelloController">
+   <children>
+      <ComboBox fx:id="DIVISA1" layoutX="405.0" layoutY="138.0" prefWidth="150.0" />
+      <ComboBox fx:id="DIVISA2" layoutX="405.0" layoutY="225.0" prefWidth="150.0" />
+      <TextField fx:id="valor1" layoutX="77.0" layoutY="138.0" promptText="0.00" />
+      <TextField fx:id="valor2" layoutX="78.0" layoutY="225.0" promptText="0,00" />
+      <Button fx:id="btnConvertir" layoutX="102.0" layoutY="301.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="99.0" onAction="#Convertir" text="Convertir" />
+      <Button fx:id="btnLimpiar" layoutX="430.0" layoutY="301.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="99.0" onAction="#Limpiar" text="Limpiar" />
+      <Label layoutX="39.0" layoutY="33.0" text="Convertidor" textAlignment="CENTER" textFill="#5f6363">
+         <font>
+            <Font name="Engravers MT" size="53.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
