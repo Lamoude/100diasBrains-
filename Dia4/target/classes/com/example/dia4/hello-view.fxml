@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="257.0" prefWidth="600.0" style="-fx-background-color: #34495e; -fx-border-color: black; -fx-border-width: 3;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.dia4.HelloController">
+   <children>
+      <TextField fx:id="Input" layoutX="26.0" layoutY="99.0" promptText="Imput" />
+      <TextField fx:id="Result" layoutX="310.0" layoutY="100.0" promptText="Result" />
+      <Button fx:id="convert" layoutX="143.0" layoutY="155.0" mnemonicParsing="false" onAction="#Convertir" prefHeight="26.0" prefWidth="92.0" text="CONVERTIR" />
+      <Button fx:id="copyInput" layoutX="197.0" layoutY="100.0" mnemonicParsing="false" onAction="#CopyInput" prefHeight="26.0" prefWidth="75.0" text="Copiar" />
+      <Button fx:id="copyResult" layoutX="501.0" layoutY="100.0" mnemonicParsing="false" onAction="#CopyResult" prefHeight="26.0" prefWidth="75.0" text="Copiar" />
+      <Label layoutX="97.0" layoutY="14.0" text="Convertidor Decimal-Binario" textAlignment="CENTER" textFill="#fffefe">
+         <font>
+            <Font name="Eras Bold ITC" size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="58.0" layoutY="62.0" text="Decimales" textFill="WHITE">
+         <font>
+            <Font name="Eras Bold ITC" size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="355.0" layoutY="62.0" prefHeight="28.0" prefWidth="92.0" text="Binario" textFill="WHITE">
+         <font>
+            <Font name="Eras Bold ITC" size="19.0" />
+         </font>
+      </Label>
+      <Label fx:id="Alerta" layoutX="107.0" layoutY="198.0" textAlignment="CENTER" textFill="#f9ebea">
+         <font>
+            <Font name="Inconsolata" size="23.0" />
+         </font>
+      </Label>
+      <Button fx:id="Limpiar" layoutX="355.0" layoutY="155.0" mnemonicParsing="false" onAction="#Limpiar" prefHeight="26.0" prefWidth="92.0" text="Limpiar" />
+   </children>
+</AnchorPane>
